@@ -2,6 +2,9 @@ body, html, div{
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-color: #00FF00;
+}
 .container{
 	width: 100%;
 }
@@ -24,9 +27,10 @@ body, html, div{
 	height: 659px;
 	margin: auto;
 	position: relative;
+	background-color: #00FF00;
 }
 .body{
-	background-image: url(sprites/30c.png);
+	background-image: url(sprites/30f.png);
 	background-size: 325px 329.5px;
 	width: 325px;
 	height: 329.5px;
@@ -60,7 +64,7 @@ body, html, div{
 .r-paw2 {
     background-image: url(sprites/r2.png);    
     top: 239px;
-    left: -213px;
+    left: -222px;
 }
 .hidden{
 	display: none;
