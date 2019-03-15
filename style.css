@@ -1,0 +1,70 @@
+body, html, div{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+}
+.legend{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: "Calibri";
+	font-size: 1.3em;
+}
+.key{
+	display: inline-block;
+	border:0.5px solid black;
+	padding: .5em .8em;
+	border-radius: 5px;
+	box-shadow: 2px 1px 5px;
+}
+.bongo-cat{
+	width: 650px;
+	height: 659px;
+	margin: auto;
+	position: relative;
+}
+.body{
+	background-image: url(sprites/30c.png);
+	background-size: 325px 329.5px;
+	width: 325px;
+	height: 329.5px;
+	position: absolute;
+	z-index: 1;
+	top: 164.75px;
+	left: 162.5px;
+}
+.paws{
+	background-size: 800px 450px;
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    z-index: 2;
+}
+.l-paw1 {
+    background-image: url(sprites/l1.png);    
+    top: 244px;
+    left: -200px;
+}
+.r-paw1 {
+    background-image: url(sprites/r1.png);    
+    top: 239px;
+    left: -204px;
+}
+.l-paw2{
+	background-image: url(sprites/l2.png);  
+    top: 244px;
+    left: -200px;
+}
+.r-paw2 {
+    background-image: url(sprites/r2.png);    
+    top: 239px;
+    left: -213px;
+}
+.hidden{
+	display: none;
+}
+.visible{
+	display: block;
+}
