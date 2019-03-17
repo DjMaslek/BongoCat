@@ -31,6 +31,7 @@ body{
 	margin: auto;
 	position: relative;
 	background-color: #00FF00;
+	transform: rotate(-17deg);
 }
 .body{
 	background-image: url(sprites/30f.png);
